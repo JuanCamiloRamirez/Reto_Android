@@ -66,5 +66,6 @@ public class HojaDeVidaFragment extends Fragment {
     private void loadInformation() {
         hojasDeVida = new ArrayList<>();
         hojasDeVida.add(new HojaDeVida(R.drawable.santiago, "Santiago Ocampo Jimenez","una persona positiva, le gusta hacer ejercício, la programación y uno de sus principales hobbits son las motos."));
+        hojasDeVida.add(new HojaDeVida(R.drawable.camilo, "Camilo Ramirez Montoya","Me considero una persona creativa, apasionada y dispuesta a asumir retos que me ayuden a crecer continuamente tanto en el ámbito personal como en el técnico. Estoy siempre dispuesto a escuchar y aprender para dar soluciones de software de forma ágil."));
     }
 }
